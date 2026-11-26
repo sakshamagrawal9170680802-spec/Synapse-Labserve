@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+langgraph
+langchain
+langchain-google-genai
+mcp<2
+asyncpg
+pydantic-settings
+python-dotenv

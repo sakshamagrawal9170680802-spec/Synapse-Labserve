@@ -1,0 +1,42 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets & environment variables (NEVER push Gemini API key or DB URL to GitHub)
+.env
+.env.*
+!.env.example
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Packaging & build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing & type-checking caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local SQLite / LangGraph checkpoint databases & logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
